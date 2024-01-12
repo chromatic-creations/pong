@@ -56,7 +56,8 @@ scoreSound.player.volume.value = -10;
 export var ambientSound = new soundFile("ambience.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -7; //turn down volume
+// ambientSound.player.volume.value = -7;
+//turn down volume
 
 export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);
